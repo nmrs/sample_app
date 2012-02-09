@@ -4,16 +4,80 @@
 		"selected_items":
 		[
 			[
-				"pas",
-				"password_confirmation"
+				"sign",
+				"sign_in"
+			],
+			[
+				"shou",
+				"should"
+			],
+			[
+				"ei",
+				"edit_user_path"
+			],
+			[
+				"wrong",
+				"wrong_user"
 			],
 			[
 				"user",
-				"user"
+				"user_path"
+			],
+			[
+				"wr",
+				"wrong_user"
+			],
+			[
+				"edit",
+				"edit_user_path"
+			],
+			[
+				"Fat",
+				"FactoryGirl"
+			],
+			[
+				"have",
+				"have_selector"
+			],
+			[
+				"edi",
+				"edit_user_path"
+			],
+			[
+				"desc",
+				"describe"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"n",
+				"new_name"
+			],
+			[
+				"new",
+				"new_name"
 			],
 			[
 				"in",
-				"invalid"
+				"information"
+			],
+			[
+				"rem",
+				"remember_token"
+			],
+			[
+				"create",
+				"create_remember_token"
+			],
+			[
+				"reme",
+				"remember_token"
+			],
+			[
+				"pas",
+				"password_confirmation"
 			],
 			[
 				"pa",
@@ -56,10 +120,10 @@
 	"buffers":
 	[
 		{
-			"file": "spec/requests/user_pages_spec.rb",
+			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 506,
+				"buffer_size": 654,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,32 +131,16 @@
 			"file": "spec/factories.rb",
 			"settings":
 			{
-				"buffer_size": 136,
+				"buffer_size": 176,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/users/show.html.erb",
+			"file": "spec/requests/user_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 59,
+				"buffer_size": 3019,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config/environments/test.rb",
-			"settings":
-			{
-				"buffer_size": 1691,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-			"settings":
-			{
-				"buffer_size": 30030,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -128,28 +176,50 @@
 	},
 	"file_history":
 	[
-		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/Gemfile",
-		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/Ruby/Ruby.tmLanguage",
+		"/C/Users/jemoore/AppData/Local/Temp/WER-57189-0.sysdata.xml",
+		"/C/Windows/Minidump/020912-29952-01.dmp",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/lib/tasks/sample_data.rake",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/helpers/sessions_helper.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/controllers/sessions_controller.rb",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/controllers/users_controller.rb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/users/show.html.erb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/models/user.rb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/users/new.html.erb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/config/routes.rb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/layouts/application.html.erb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/spec_helper.rb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/helpers/application_helper.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/requests/user_pages_spec.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/users/index.html.erb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/helpers/users_helper.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/assets/stylesheets/layout.css.scss",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/requests/authentication_pages_spec.rb",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/layouts/_header.html.erb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/controllers/users_controller.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/Gemfile",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/spec_helper.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/support/utilities.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/models/user.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/users/edit.html.erb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/Guardfile",
+		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/Ruby/Ruby.tmLanguage",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/helpers/application_helper.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/public/assets/application-c48ce98fa0312b07c73477ffa6e1a651.js.gz",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/config/routes.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/sessions/new.html.erb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/controllers/application_controller.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/db/migrate/20120206230933_add_remember_token_to_users.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/layouts/application.html.erb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/shared/_error_messages.html.erb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/config/locales/en.yml",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/config/environments/production.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/config/initializers/wrap_parameters.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/users/new.html.erb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/tmp/cache/sass/856f2d8d1dca213273f63436f2e37c65663c8549/layout.css.scssc",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/config/environments/test.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/factories.rb",
+		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/users/show.html.erb",
+		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/requests/static_pages_spec.rb",
 		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/helpers/static_pages_helper.rb",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/static_pages/home.html.erb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/assets/stylesheets/layout.css.scss",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/requests/user_pages_spec.rb",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/static_pages/contact.html.erb",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/views/layouts/_footer.html.erb",
-		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/spec/support/utilities.rb",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/assets/stylesheets/users.css.scss",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/app/assets/javascripts/users.js.coffee",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/sample_app/.git/COMMIT_EDITMSG",
@@ -160,7 +230,6 @@
 		"/C/Users/jemoore/.heroku/credentials",
 		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
 		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
-		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
 		"/C/Users/jemoore/.ssh/id_rsa.pub",
 		"/C/Users/jemoore/Documents/Aptana Studio 3 Workspace/nmrs-blog/app/controllers/application_controller.rb"
@@ -174,6 +243,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -181,6 +251,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gravatar",
+			": ",
+			"signed_in",
+			"save",
+			"'",
 			"page",
 			"auto_complete_on"
 		],
@@ -200,23 +275,23 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "spec/requests/user_pages_spec.rb",
+					"file": "Gemfile",
 					"settings":
 					{
-						"buffer_size": 506,
+						"buffer_size": 654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								437,
-								437
+								128,
+								128
 							]
 						],
 						"settings":
@@ -236,15 +311,15 @@
 					"file": "spec/factories.rb",
 					"settings":
 					{
-						"buffer_size": 136,
+						"buffer_size": 176,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								136
+								172,
+								172
 							]
 						],
 						"settings":
@@ -259,44 +334,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/users/show.html.erb",
+					"file": "spec/requests/user_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 59,
+						"buffer_size": 3019,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "config/environments/test.rb",
-					"settings":
-					{
-						"buffer_size": 1691,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1582,
-								1582
+								200,
+								200
 							]
 						],
 						"settings":
@@ -304,33 +353,6 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/jemoore/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-					"settings":
-					{
-						"buffer_size": 30030,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								47,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -383,6 +405,142 @@
 		"selected_items":
 		[
 			[
+				"user_pa",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"fact",
+				"spec/factories.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"_head",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"lay",
+				"app/assets/stylesheets/layout.css.scss"
+			],
+			[
+				"user",
+				"app/helpers/users_helper.rb"
+			],
+			[
+				"sess",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"aut",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"auth",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"user_s",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"",
+				"spec/support/utilities.rb"
+			],
+			[
+				"guar",
+				"Guardfile"
+			],
+			[
+				"utit",
+				"spec/support/utilities.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"guard",
+				"Guardfile"
+			],
+			[
+				"utili",
+				"spec/support/utilities.rb"
+			],
+			[
+				"edit",
+				"app/views/users/edit.html.erb"
+			],
+			[
+				"users_",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"user_",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"application_",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"session",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"add_rem",
+				"db/migrate/20120206230933_add_remember_token_to_users.rb"
+			],
+			[
+				"application_con",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"authe",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"share",
+				"app/views/shared/_error_messages.html.erb"
+			],
+			[
+				"la",
+				"app/assets/stylesheets/layout.css.scss"
+			],
+			[
+				"new",
+				"config/initializers/wrap_parameters.rb"
+			],
+			[
+				"use",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"app/hel",
+				"app/helpers/users_helper.rb"
+			],
+			[
 				"test.",
 				"config/environments/test.rb"
 			],
@@ -395,36 +553,12 @@
 				"Gemfile"
 			],
 			[
-				"users",
-				"spec/requests/user_pages_spec.rb"
-			],
-			[
-				"user",
-				"spec/models/user_spec.rb"
-			],
-			[
 				"route",
 				"config/routes.rb"
 			],
 			[
 				"layou",
 				"app/views/layouts/application.html.erb"
-			],
-			[
-				"spec",
-				"spec/spec_helper.rb"
-			],
-			[
-				"",
-				"spec/models/user_spec.rb"
-			],
-			[
-				"user_",
-				"spec/models/user_spec.rb"
-			],
-			[
-				"gem",
-				"Gemfile"
 			]
 		],
 		"width": 0.0
