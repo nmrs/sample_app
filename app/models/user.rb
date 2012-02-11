@@ -22,6 +22,11 @@ class User < ActiveRecord::Base
                     uniqueness: { case_sensitive: false }
   validates :password,  length: { minimum: 6 }
 
+  def feed
+    # This is preliminary. See Chapter 12 for the full implementation.
+    Micropost.where("user_id = ?", id)
+  end
+
   private
 
     def create_remember_token
