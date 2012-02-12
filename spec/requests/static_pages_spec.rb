@@ -35,10 +35,10 @@ describe "Static pages" do
         let(:other_user) { FactoryGirl.create(:user) }
         before { user.follow!(other_user) }
 
-        if { should have_selector('a',  href: following_user_path(user),
-                                        content: "0 following" }
-        if { should have_selector('a',  href: followers_user_path(user),
-                                        content: "1 follower" }
+        it { should have_selector('a',  href: following_user_path(user),
+                                        content: "0 following") }
+        it { should have_selector('a',  href: followers_user_path(user),
+                                        content: "1 follower") }
       end
     end
   end
