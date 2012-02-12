@@ -1,12 +1,4 @@
-class Micropost < ActiveRecord::Base
-  attr_accessible :content
-  belongs_to :user
-
-  validates :content, presence: true, length: { maximum: 140 }
-  validates :user_id, presence: true
-  
-  default_scope order: 'microposts.created_at DESC'  
-end# == Schema Information
+# == Schema Information
 #
 # Table name: microposts
 #
@@ -16,4 +8,14 @@ end# == Schema Information
 #  created_at :datetime        not null
 #  updated_at :datetime        not null
 #
+
+class Micropost < ActiveRecord::Base
+  attr_accessible :content
+  belongs_to :user
+
+  validates :content, presence: true, length: { maximum: 140 }
+  validates :user_id, presence: true
+  
+  default_scope order: 'microposts.created_at DESC'  
+end
 
