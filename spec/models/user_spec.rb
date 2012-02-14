@@ -29,6 +29,7 @@ describe User do
   it { should respond_to(:password) }
   it { should respond_to(:password_confirmation) }
   it { should respond_to(:remember_token) }
+  it { should respond_to(:admin) }
   it { should respond_to(:authenticate) }
   it { should respond_to(:microposts) }
   it { should respond_to(:feed) }
@@ -40,7 +41,7 @@ describe User do
   it { should respond_to(:follow!) }  
 
   it { should be_valid }
-  it { should be_valid }
+  it { should_not be_admin }
 
   describe "when name is not present" do
     before { @user.name = " " }
@@ -121,11 +122,6 @@ describe User do
     its (:remember_token) { should_not be_blank }  
   end
 
-  it { should respond_to(:admin) }
-  it { should respond_to(:authenticate) }
-  it { should be_valid }
-  it { should_not be_admin }
-
   describe "with admin attribute set to true" do
     before { @user.toggle!(:admin) }
 
@@ -157,10 +153,21 @@ describe User do
     describe "status" do
       let(:unfollowed_post) do
         FactoryGirl.create(:micropost, user: FactoryGirl.create(:user))
+      end
+      let(:followed_user) { FactoryGirl.create(:user) }
 
-        its (:feed) { should include(newer_micropost) }
-        its (:feed) { should include(older_micropost) }
-        its (:feed) { should_not include(unfollowed_post) }
+      before do
+        @user.follow!(followed_user)
+        3.times { followed_user.microposts.create!(content: "Lorem ipsum") }
+      end
+
+      its (:feed) { should include(newer_micropost) }
+      its (:feed) { should include(older_micropost) }
+      its (:feed) { should_not include(unfollowed_post) }
+      its (:feed) do
+        followed_user.microposts.each do |micropost|
+          should include(micropost)
+        end
       end
     end
   end
